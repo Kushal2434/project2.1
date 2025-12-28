@@ -67,7 +67,7 @@ section{
     overflow:hidden;
     transition:transform .4s;
     position:relative;
-    isolation:isolate; /* 🔥 FIXES Safari layering bug */
+    isolation:isolate; 
 }
 
 
@@ -82,8 +82,8 @@ section{
     object-fit:cover;
     display:block;
     position:relative;
-    z-index:2;          /* ⬅ bring image above bubble */
-    background:#eee;   /* fallback if image fails */
+    z-index:2;         
+    background:#eee;   
 }
 
 
@@ -139,3 +139,4 @@ footer{
     text-align:center;
     padding:20px;
 }
+
